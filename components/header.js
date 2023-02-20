@@ -40,7 +40,13 @@ export default function Header() {
 
       {/* header right */}
       <div className='flex items-center sm:space-x-2 justify-end'>
-        {/* profile pic utilizing nextAuth */}
+        <Image
+          className="rounded-full cursor-pointer"
+          src="/design/profileLogo.jpg"
+          width="40"
+          height="40"
+          alt=""
+        />
         <p className='whitespace-nowrap font-semibold pr-3'>My name</p>
         <ViewGridIcon className='icon'/>
         <ChatIcon className='icon'/>
