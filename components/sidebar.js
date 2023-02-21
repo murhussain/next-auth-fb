@@ -5,6 +5,7 @@ import {CalendarIcon, ClockIcon, DesktopComputerIcon, UsersIcon} from "@heroicon
 function Sidebar() {
   return (
     <div className="p-2 mt-3 max-w-[600px] xl:min-w-[300px]">
+      <SidebarRow src="/design/profileLogo.jpg" title="Your Name" />
       <SidebarRow Icon={UsersIcon} title="Friends" />
       <SidebarRow Icon={UserGroupIcon} title="Groups" />
       <SidebarRow Icon={ShoppingBagIcon} title="Marketplace" />
